@@ -1,15 +1,19 @@
 import React from 'react';
 import './App.css';
-import Paragraphe from "./paragraphe/index"
+import Title from "./title/index"
 import Menu from "./menu/menu"
-
+import { Route, Switch } from "react-router-dom";
+import Home from "./home/home"
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Menu/>
-        <Paragraphe/>
-      </header>
+      <div className="App-header">
+        <Title/>
+        <Home/>
+        {/* <Switch>
+        <Route exact path="/home" component={Home} />
+        </Switch> */}
+      </div>
     </div>
   );
 }

@@ -1,0 +1,9 @@
+.title {
+    color: #fff;
+}
+
+.title-container {
+    background-image: url("https://picsum.photos/800/300?grayscale");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,13 @@
+.image {
+    background-image: url("https://picsum.photos/300/300?grayscale");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: #fff;
+}
